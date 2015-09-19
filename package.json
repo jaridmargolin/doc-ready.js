@@ -1,0 +1,25 @@
+{
+  "name": "doc-ready.js",
+  "description": "Browser `document ready` helper.",
+  "author": "Jarid Margolin <jaridmargolin@gmail.com>",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jaridmargolin/doc-ready.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaridmargolin/doc-ready.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jaridmargolin/doc-ready.js/issues"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "main": "dist/common/doc-ready.js",
+  "devDependencies": {
+    "easy-build": "~0.2.2",
+    "jquery": "~1.11.3",
+    "proclaim": "~3.3.1",
+    "sinon": "~1.16.1"
+  },
+  "license": "MIT"
+}
